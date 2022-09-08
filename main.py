@@ -7,7 +7,7 @@ copy (not move) all contacts from given tags to target tag (need to be created i
 import uiautomator2 as u2
 
 # Global vars
-d = u2.connect('LABNW19711006518')
+d = u2.connect('you-device-serial') # you can get it by 'adb devices'
 w, h = d.window_size()
 # tags you want to get contacts from
 tags_from = ['classmates', 'friends']
